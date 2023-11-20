@@ -13,4 +13,7 @@ deploy:
     script: dotnet nuget push DemoSdk.nupkg --api-key $MYGET_API_KEY --source https://www.myget.org/F/mydemosdk/api/v3/index.json
     skip_cleanup: true
     on:
-      tags: true
+      tags: true 
+
+on:
+  all_branches: true
