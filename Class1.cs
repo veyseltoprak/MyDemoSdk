@@ -10,6 +10,7 @@ namespace DemoSdk
     {
         public DateTime GetDate()
         {
+            //
             return DateTime.Now;
         }
     }
