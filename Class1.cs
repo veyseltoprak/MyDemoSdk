@@ -11,7 +11,7 @@ namespace DemoSdk
         public DateTime GetDate()
         {
             //test
-            return DateTime.Now;
+            return DateTime.Now; 
         }
     }
 }
